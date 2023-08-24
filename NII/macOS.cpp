@@ -10,7 +10,7 @@ int main() {
     }
 
     std::string line;
-    getline(netInterfaces, line); // Skip header line
+    getline(netInterfaces, line);
 
     while (getline(netInterfaces, line)) {
         std::istringstream iss(line);
