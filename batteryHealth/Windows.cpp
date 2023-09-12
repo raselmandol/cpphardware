@@ -1,5 +1,6 @@
 //remember
 //no direct API for Windows
+//comparing with capacity
 #include <iostream>
 #include <Windows.h>
 
