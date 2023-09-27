@@ -9,4 +9,11 @@ int main() {
     }
 
     char buffer[256];
-    while (fgets(buffer, sizeof(buffer),
+    while (fgets(buffer, sizeof(buffer), fp)) {
+        std::cout << buffer;
+    }
+
+    pclose(fp);
+
+    return 0;
+}
