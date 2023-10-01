@@ -2,6 +2,7 @@
 #include <cstdio>
 
 int main() {
+    //running 'sensors' command and capturing its output
     FILE* pipe = popen("sensors", "r");
     if (!pipe) {
         std::cerr << "Failed to run 'sensors' command" << std::endl;
