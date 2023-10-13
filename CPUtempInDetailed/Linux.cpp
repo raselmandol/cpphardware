@@ -10,6 +10,7 @@ int main() {
         temperatureFile.close();
         double tempCelsius = static_cast<double>(temperature) / 1000;
         std::cout << "CPU Temperature: " << tempCelsius << "°C" << std::endl;
+        //print more details here
     } else {
         std::cerr << "Unable to open temperature file." << std::endl;
         return 1;
