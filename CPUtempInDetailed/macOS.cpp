@@ -1,4 +1,5 @@
 //ref to Intel PowerGadget
+//powerGadget from i is needed to execute
 #include <iostream>
 #include <cstdlib>
 
