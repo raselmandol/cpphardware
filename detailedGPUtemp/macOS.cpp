@@ -1,5 +1,5 @@
 //will update later
-
+//for now this extracts the GPU details using connector 
 #include <iostream>
 #include <cstdio>
 
