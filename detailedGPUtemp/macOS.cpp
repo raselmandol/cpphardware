@@ -4,6 +4,7 @@
 #include <cstdio>
 
 int main() {
+    //just using the pipe and implementation of sys SPD
     FILE* pipe = popen("system_profiler SPDisplaysDataType", "r");
     if (pipe) {
         char buffer[128];
