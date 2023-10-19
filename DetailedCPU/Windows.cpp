@@ -4,6 +4,7 @@
 #include <Wbemidl.h>
 
 #pragma comment(lib, "wbemuuid.lib")
+//pragma --> wbemmuid.lib
 
 int main() {
     HRESULT hres;
