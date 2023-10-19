@@ -5,6 +5,7 @@
 
 struct CPUInfo {
     std::string processor;
+    //processor informations
     std::string vendor_id;
     std::string cpu_family;
     //add more fields as needed.
