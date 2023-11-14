@@ -3,6 +3,7 @@
 #include <Ntddvdeo.h>
 
 int main() {
+    //assuming a single GPU
     ADAPTER_INFO adapterInfo;
     DISPLAYCONFIG_VIDEO_SIGNAL_INFO signalInfo;
 
