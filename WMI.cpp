@@ -1,3 +1,5 @@
+//Using WMI (for Windows systems)
+
 #include <iostream>
 #include <comdef.h>
 #include <Wbemidl.h>
