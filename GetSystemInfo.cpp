@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <Windows.h>
 int main() {
     SYSTEM_INFO systemInfo;
     GetSystemInfo(&systemInfo);
