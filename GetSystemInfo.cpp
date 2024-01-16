@@ -1,3 +1,4 @@
+//Using GetSystemInfo (for Windows systems)
 #include <iostream>
 #include <Windows.h>
 int main() {
