@@ -49,6 +49,7 @@ void GetSystemInfo() {
 
                     pEnumerator->Release();
                 }
+                //additional queries for processor and memory information
                 hres = pSvc->ExecQuery(bstr_t("WQL"), bstr_t("SELECT * FROM Win32_Processor"), WBEM_FLAG_FORWARD_ONLY, nullptr, &pEnumerator);
 
                 if (SUCCEEDED(hres)) {
