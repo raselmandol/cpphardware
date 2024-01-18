@@ -11,6 +11,7 @@ int main() {
 
     //getting CPU information
     __cpuid(1, regs[0], regs[1], regs[2], regs[3]);
+    //printing cpuInfo
     std::cout << "CPU Family: " << ((regs[0] >> 8) & 0xF) << std::endl;
     std::cout << "CPU Model: " << ((regs[0] >> 4) & 0xF) << std::endl;
 
