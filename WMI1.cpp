@@ -63,6 +63,7 @@ void GetSystemInfo() {
 
                         VARIANT vtProp;
                         hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
+                        //P name, Release object
                         wprintf(L"Processor Name: %s\n", vtProp.bstrVal);
                         VariantClear(&vtProp);
 
