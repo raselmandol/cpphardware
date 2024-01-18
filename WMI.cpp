@@ -37,6 +37,7 @@ int main() {
 
                         if (0 == uReturn) break;
 
+                        //manuFact and other
                         VARIANT vtProp;
                         hr = pclsObj->Get(L"Manufacturer", 0, &vtProp, 0, 0);
                         wprintf(L"Manufacturer: %s\n", vtProp.bstrVal);
