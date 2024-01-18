@@ -2,6 +2,7 @@
 #include <iostream>
 #include <Windows.h>
 int main() {
+    //sysInfo
     SYSTEM_INFO systemInfo;
     GetSystemInfo(&systemInfo);
 
@@ -13,6 +14,7 @@ int main() {
         case PROCESSOR_ARCHITECTURE_ARM:
             std::cout << "ARM";
             break;
+        //processor_arch_IA64
         case PROCESSOR_ARCHITECTURE_IA64:
             std::cout << "Intel Itanium-based";
             break;
