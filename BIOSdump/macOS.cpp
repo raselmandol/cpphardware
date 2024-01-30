@@ -2,7 +2,7 @@
 #include <cstdio>
 
 int main() {
-    //Get BIOS information on macOS is not straightforward; you may use system_profiler for hardware info
+    //BIOS information on macOS is not straightforward; you may use system_profiler for hardware info
     FILE* pipe = popen("system_profiler SPHardwareDataType", "r");
     if (pipe) {
         char buffer[128];
