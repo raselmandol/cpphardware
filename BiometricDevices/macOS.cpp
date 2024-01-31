@@ -13,7 +13,7 @@ int main() {
                 //Biometric authentication successful
             } else {
                 //Biometric authentication failed or was canceled
-                //controll here
+                //control here
             }
         }];
     } else {
