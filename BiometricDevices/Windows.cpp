@@ -7,10 +7,10 @@ int main() {
     
     hr = WinBioOpenSession(WINBIO_TYPE_FINGERPRINT, WINBIO_POOL_SYSTEM, WINBIO_FLAG_RAW, NULL, 0, 0, &sessionHandle);
     if (FAILED(hr)) {
-        //Handle error
+        //Handling error
     }
 
-    //Enumerate biometric units, capture data, etc.
+    //Enumerating biometric units, capture data, etc.
 
     WinBioCloseSession(sessionHandle);
     return 0;
