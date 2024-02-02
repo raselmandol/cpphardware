@@ -27,7 +27,7 @@ int main() {
                 hr = device->get_Name(name.GetAddressOf());
                 if (SUCCEEDED(hr)) {
                     std::wcout << L"Device Name: " << name.c_str() << std::endl;
-                    //Print other Bluetooth device details as needed
+                    //other Bluetooth device details as needed
                 }
             }
         }
