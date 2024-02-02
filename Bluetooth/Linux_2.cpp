@@ -28,7 +28,7 @@ int main() {
             strcpy(name, "unknown");
         }
         printf("Device Name: %s\n", name);
-        //Print other Bluetooth device details as needed
+        //other Bluetooth device details as needed
     }
 
     free(ii);
