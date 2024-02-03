@@ -2,6 +2,7 @@
 #include <windows.devices.bluetooth.h>
 #include <wrl.h>
 
+//using namespace Microsoft, Windows, Bluetooth, Enumeration
 using namespace Microsoft::WRL;
 using namespace Windows::Devices::Bluetooth;
 using namespace Windows::Devices::Enumeration;
