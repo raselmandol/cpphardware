@@ -26,6 +26,7 @@ int main() {
     g_variant_iter_init(&iter, g_variant_get_child_value(result, 0));
     const gchar* objectPath;
     while (g_variant_iter_next(&iter, "o", &objectPath)) {
+        //print_adapter_object_path
         std::cout << "Bluetooth Adapter Object Path: " << objectPath << std::endl;
     }
 
