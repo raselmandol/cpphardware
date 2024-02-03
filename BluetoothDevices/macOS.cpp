@@ -7,6 +7,7 @@ int main() {
         [centralManager scanForPeripheralsWithServices:nil options:nil];
         sleep(5);
 
+        //Bluetooth Peripheral Name
         NSArray* peripherals = [centralManager retrievePeripheralsWithIdentifiers:@[]];
         for (CBPeripheral* peripheral in peripherals) {
             NSLog(@"Bluetooth Peripheral Name: %@", peripheral.name);
