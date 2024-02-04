@@ -10,7 +10,6 @@ int main() {
 
     if (exitCode == 0) {
         //std::cout << "CPU Temperature: T°C" << std::endl;
-      //print the original one here
     } else {
         std::cerr << "Failed to retrieve CPU temperature." << std::endl;
     }
