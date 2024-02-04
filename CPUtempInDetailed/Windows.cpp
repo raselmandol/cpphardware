@@ -38,7 +38,7 @@ int main() {
                         if (SUCCEEDED(hr)) {
                             int temperature = vtProp.intVal / 10 - 273;
                             std::wcout << "CPU Temperature: " << temperature << "°C" << std::endl;
-                            //print more infos here
+                            
                             VariantClear(&vtProp);
                         }
                         pclsObj->Release();
