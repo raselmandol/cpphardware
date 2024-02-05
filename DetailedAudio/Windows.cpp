@@ -18,6 +18,7 @@ int main() {
     for (int i = 0; i < numDevices; ++i) {
         WAVEOUTCAPS deviceInfo;
         if (waveOutGetDevCaps(i, &deviceInfo, sizeof(deviceInfo)) == MMSYSERR_NOERROR) {
+            //more infos here
             std::cout << "Device " << i << ": " << deviceInfo.szPname << std::endl;
         }
     }
