@@ -18,6 +18,7 @@ int main() {
             double longitude = gpsdata.fix.longitude;
             double altitude = gpsdata.fix.altitude;
 
+            //printing details
             std::cout << "Latitude: " << latitude << std::endl;
             std::cout << "Longitude: " << longitude << std::endl;
             std::cout << "Altitude: " << altitude << std::endl;
