@@ -1,4 +1,4 @@
-//will add or remove more functions in future
+
 
 #include <iostream>
 #include <winrt/Windows.Devices.Geolocation.h>
