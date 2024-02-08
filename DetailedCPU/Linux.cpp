@@ -8,7 +8,7 @@ struct CPUInfo {
     //processor informations
     std::string vendor_id;
     std::string cpu_family;
-    //add more fields as needed.
+    //add more fields as needed
 };
 
 int main() {
@@ -19,7 +19,7 @@ int main() {
     CPUInfo current_cpu;
     while (std::getline(cpuinfo, line)) {
         if (line.empty()) {
-            //newwww CPU entry
+            //new CPU entry
             cpus.push_back(current_cpu);
             current_cpu = CPUInfo();
         }
