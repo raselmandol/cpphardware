@@ -4,6 +4,7 @@
 #include <cstdio>
 
 int main() {
+    //using nvram
     FILE* pipe = popen("nvram", "r");
     if (!pipe) {
         std::cerr << "Failed to run nvram" << std::endl;
