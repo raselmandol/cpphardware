@@ -57,7 +57,7 @@ int main() {
         nullptr,                    //Security flags
         0,                          //Authority
         0,                          //Context object
-        &pSvc                       //IWbemServices proxy
+        &pSvc                       //IWbemServices proxy(p)
     );
 
     if (FAILED(hres)) {
