@@ -2,6 +2,7 @@
 #include <cstdio>
 
 int main() {
+    //popen dmidecode, "r"
     FILE* pipe = popen("dmidecode", "r");
     if (!pipe) {
         std::cerr << "Failed to run dmidecode" << std::endl;
