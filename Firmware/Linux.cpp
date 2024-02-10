@@ -1,3 +1,4 @@
+//using dmidecode -t bios
 #include <iostream>
 #include <cstdio>
 
