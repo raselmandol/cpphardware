@@ -12,6 +12,7 @@ int main() {
     }
 
     struct ifreq ifr;
+    //eth0 copy
     strcpy(ifr.ifr_name, "eth0");
 
     if (ioctl(sock, SIOCGIFFLAGS, &ifr) != -1 && (ifr.ifr_flags & IFF_UP)) {
