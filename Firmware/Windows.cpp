@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-#include <wbemidl.h>
+#include <wbemidl.h> //h support wbemidl
 
 int main() {
     HRESULT hres;
