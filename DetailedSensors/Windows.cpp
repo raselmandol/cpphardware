@@ -1,5 +1,6 @@
 #include <iostream>
 #include <windows.h>
+#include <comdef.h>
 #include <wbemidl.h>
 
 int main() {
