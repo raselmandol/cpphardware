@@ -1,3 +1,4 @@
+//using wlanapi.lib
 #include <iostream>
 #include <windows.h>
 #include <wlanapi.h>
