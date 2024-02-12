@@ -1,3 +1,4 @@
+//using setupapi.lib
 #include <iostream>
 #include <windows.h>
 #include <setupapi.h>
