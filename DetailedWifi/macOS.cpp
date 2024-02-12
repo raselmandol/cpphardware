@@ -1,9 +1,11 @@
+
 #include <iostream>
 #include <CoreFoundation/CoreFoundation.h>
 #include <SystemConfiguration/SCDynamicStore.h>
 #include <SystemConfiguration/SCSchemaDefinitions.h>
 
 int main() {
+    //creating SCDynamicStore
     SCDynamicStoreRef store = SCDynamicStoreCreate(kCFAllocatorDefault, CFSTR("WifiInfo"), nullptr, nullptr);
     if (!store) {
         std::cerr << "Failed to create SCDynamicStore." << std::endl;
