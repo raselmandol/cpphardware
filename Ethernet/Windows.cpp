@@ -13,6 +13,7 @@ int main() {
         return 1;
     }
 
+    //netInfo
     NetworkInformation::GetInternetConnectionProfile();
 
     if (NetworkInformation::GetInternetConnectionProfile()) {
