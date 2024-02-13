@@ -4,6 +4,7 @@
 int main() {
     SYSTEM_POWER_STATUS powerStatus;
     if (GetSystemPowerStatus(&powerStatus)) {
+        //powerStatus-->0/1
         std::cout << "AC Line Status: " << (powerStatus.ACLineStatus == 1 ? "Online" : "Offline") << std::endl;
         std::cout << "Battery Percentage: " << static_cast<int>(powerStatus.BatteryLifePercent) << "%" << std::endl;
         std::cout << "Battery Charging: " << (powerStatus.BatteryFlag & 8 ? "Yes" : "No") << std::endl;
