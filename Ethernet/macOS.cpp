@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 int main() {
+    //check mannually 
     SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, "www.apple.com");
 
     if (reachability) {
