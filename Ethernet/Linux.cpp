@@ -18,6 +18,7 @@ int main() {
     if (ioctl(sock, SIOCGIFFLAGS, &ifr) != -1 && (ifr.ifr_flags & IFF_UP)) {
         printf("Connected to a network (possibly Ethernet).\n");
     } else {
+        //handle error
         printf("Not connected to a network.\n");
     }
 
