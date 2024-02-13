@@ -44,6 +44,7 @@ int main() {
         CoUninitialize();
         return 1;
     }
+    //connect to server
     hres = pLoc->ConnectServer(
         _bstr_t(L"ROOT\\CIMV2"),
         nullptr,
