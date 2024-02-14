@@ -1,3 +1,4 @@
+//use EnumDisplayDevices
 #include <iostream>
 #include <windows.h>
 
