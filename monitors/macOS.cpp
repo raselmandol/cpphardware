@@ -1,3 +1,4 @@
+//<Cocoa/Cocoa.h> support
 #include <iostream>
 #import <Cocoa/Cocoa.h>
 
