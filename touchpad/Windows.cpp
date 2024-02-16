@@ -1,4 +1,4 @@
-//using <windows.devices.input.h>
+
 #include <iostream>
 #include <windows.devices.input.h>
 #include <wrl.h>
