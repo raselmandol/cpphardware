@@ -1,3 +1,4 @@
+//using wbemuuid.lib
 #include <iostream>
 #include <windows.h>
 #include <comdef.h>
