@@ -1,3 +1,4 @@
+//use efiFile, efiInfo, FirmwareFeatures
 #include <iostream>
 #include <fstream>
 #include <sstream>
