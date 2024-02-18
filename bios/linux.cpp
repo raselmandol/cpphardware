@@ -6,6 +6,7 @@ std::string getBiosInfo(const std::string& filename) {
     std::ifstream file(filename);
     if (!file.is_open()) {
         return "N/A";
+        //return NA, 0, false
     }
 
     std::string line;
