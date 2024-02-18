@@ -1,3 +1,4 @@
+//getBiosInfo, extract
 #include <iostream>
 #include <fstream>
 #include <string>
