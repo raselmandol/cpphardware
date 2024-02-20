@@ -1,3 +1,4 @@
+//using COM3, serial port
 #include <iostream>
 #include <fstream>
 #include <string>
