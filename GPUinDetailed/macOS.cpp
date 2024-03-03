@@ -8,6 +8,7 @@ int main() {
         if (IORegistryEntryCreateCFProperties(service, &properties, kCFAllocatorDefault, kNilOptions) == KERN_SUCCESS) {
             CFStringRef gpuName = (CFStringRef)CFDictionaryGetValue(properties, CFSTR("IOName"));
             if (gpuName) {
+                //thr CFStringGetCStringPtr_using
                 std::cout << "GPU Name: " << CFStringGetCStringPtr(gpuName, kCFStringEncodingUTF8) << std::endl;
             }
 
