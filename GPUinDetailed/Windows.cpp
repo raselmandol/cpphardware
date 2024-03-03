@@ -11,6 +11,7 @@ int main() {
         if (pFactory->EnumAdapters(0, &pAdapter) == S_OK) {
             DXGI_ADAPTER_DESC adapterDesc;
             if (SUCCEEDED(pAdapter->GetDesc(&adapterDesc))) {
+                //using adapt_description
                 std::wcout << L"GPU Description: " << adapterDesc.Description << std::endl;
                 std::wcout << L"GPU Vendor ID: " << adapterDesc.VendorId << std::endl;
                 //more GPU information in adapterDesc-->possible
