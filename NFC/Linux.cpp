@@ -11,6 +11,7 @@ int main() {
     if (pnd != NULL) {
         //Configure and interact with the NFC device
         //For example, you can read NFC tags or send commands
+        //close device handler
         nfc_close(pnd);
     }
 
