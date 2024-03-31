@@ -9,6 +9,7 @@
 #endif
 
 int main() {
+    //set  the pin value accd to the output ledPin
     const int ledPin = 13;
     pinMode(ledPin, OUTPUT);
 
@@ -19,6 +20,8 @@ int main() {
         delay(1000);               
 
 #ifdef _WIN32
+        //make some delay?
+        //delay()--> 1...2...3...
         Sleep(2000);
 #else
         sleep(2);   
