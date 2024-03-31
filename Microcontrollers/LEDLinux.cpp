@@ -3,7 +3,9 @@
 #include <unistd.h>
 
 int main() {
+    //directly open handler// gpioPath
     const std::string gpioPath = "/sys/class/gpio/gpio17";
+    //exportFile Path
     std::ofstream exportFile("/sys/class/gpio/export");
 
     if (!exportFile.is_open()) {
