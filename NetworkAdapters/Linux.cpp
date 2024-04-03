@@ -2,6 +2,7 @@
 #include <cstdio>
 
 int main() {
+    //access ifconfig
     FILE* fp = popen("ifconfig", "r");
     if (!fp) {
         std::cerr << "Failed to execute ifconfig" << std::endl;
