@@ -94,6 +94,7 @@ int main() {
         CoUninitialize();
         return 1;
     }
+    //enum-->all
 
     while (pEnumerator) {
         hres = pEnumerator->Next(WBEM_INFINITE, 1, &pclsObj, &uReturn);
