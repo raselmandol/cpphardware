@@ -3,6 +3,7 @@
 #include <string>
 
 int main() {
+    //use thermal zone0
     std::ifstream tempFile("/sys/class/thermal/thermal_zone0/temp");
     std::string temperature;
 
