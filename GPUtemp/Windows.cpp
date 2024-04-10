@@ -5,6 +5,7 @@
 int main() {
     //assuming a single GPU
     ADAPTER_INFO adapterInfo;
+    //using signalInfo
     DISPLAYCONFIG_VIDEO_SIGNAL_INFO signalInfo;
 
     memset(&adapterInfo, 0, sizeof(adapterInfo));
