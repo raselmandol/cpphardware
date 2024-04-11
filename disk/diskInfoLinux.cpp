@@ -4,6 +4,7 @@
 #include <vector>
 #include <sstream>
 
+//construct diskInfo
 struct DiskInfo {
     std::string name;
     unsigned long long size;
