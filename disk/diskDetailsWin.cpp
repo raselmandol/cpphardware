@@ -2,6 +2,7 @@
 #include <comdef.h>
 #include <Wbemidl.h>
 
+//wbemuuid.lib -->lib
 #pragma comment(lib, "wbemuuid.lib")
 int main() {
     HRESULT hres;
