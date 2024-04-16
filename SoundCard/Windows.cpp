@@ -3,6 +3,7 @@
 #include <mmsystem.h>
 
 int main() {
+    //init_deviceCount
     int deviceCount = waveOutGetNumDevs();
     
     for (int i = 0; i < deviceCount; i++) {
