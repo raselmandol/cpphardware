@@ -1,4 +1,5 @@
 #include <stdio.h>
+//using asoundlib
 #include <alsa/asoundlib.h>
 
 int main() {
@@ -14,7 +15,6 @@ int main() {
             printf("Card Name: %s\n", snd_ctl_card_info_get_name(handle));
             printf("Card ID: %s\n", snd_ctl_card_info_get_id(handle));
             printf("Card Driver: %s\n", snd_ctl_card_info_get_driver(handle));
-            //Print other sound card details as needed
             snd_ctl_close(handle);
         }
     }
