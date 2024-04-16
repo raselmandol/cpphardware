@@ -1,4 +1,6 @@
 #include <stdio.h>
+//verify ObjectProprtyAdd, dataSize
+//use deviceIds
 #include <CoreAudio/CoreAudio.h>
 
 int main() {
