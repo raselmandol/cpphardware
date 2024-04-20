@@ -3,6 +3,7 @@
 #include <string>
 
 int main() {
+    //cpuinfo
     std::ifstream cpuinfo("/proc/cpuinfo");
     std::string line;
     while (std::getline(cpuinfo, line)) {
