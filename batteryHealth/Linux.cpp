@@ -3,6 +3,7 @@
 #include <string>
 
 int main() {
+    //is_open?
     std::ifstream chargeCycleFile("/sys/class/power_supply/BAT0/charge_full");
     if (chargeCycleFile.is_open()) {
         int chargeFull, chargeNow;
